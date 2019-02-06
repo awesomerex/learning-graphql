@@ -38,6 +38,7 @@ const Query = {
     })
   },
   comments(parent, args, {db}, info){
+    console.log(db)
     if (!args.query){
       return db.comments
     }

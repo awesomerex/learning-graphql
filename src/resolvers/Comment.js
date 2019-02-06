@@ -6,7 +6,7 @@ const Comment = {
   },
   post(parent, args, {db}, info){
     return db.posts.find((post) => {
-      return post.id === parent.postId
+      return post.id === parent.post
     })
   }
 }

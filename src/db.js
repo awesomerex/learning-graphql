@@ -37,22 +37,22 @@ const comments = [{
   id: '1',
   text: 'Stuff',
   author: '1',
-  postId: '1'
+  post: '1'
 }, {
   id: '2',
   text: 'Great!',
   author: '1',
-  postId: '2'
+  post: '2'
 }, {
   id: '3',
   text: 'Cool stuff!',
   author: '2',
-  postId: '3'
+  post: '3'
 }, {
   id: '4',
   text: 'Great post!',
   author: '3',
-  postId: '1'
+  post: '1'
 }]
 
 const db = {
